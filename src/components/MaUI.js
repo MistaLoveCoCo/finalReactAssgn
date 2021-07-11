@@ -245,4 +245,4 @@ export const useStyles = makeStyles({
             left: '55%',
         },
     }
-})
+}, {index: 1})

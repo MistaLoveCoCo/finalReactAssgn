@@ -1,18 +1,14 @@
 import React, {useState, useEffect, useContext} from 'react'
 import { useParams } from 'react-router-dom'
-import { ThemeProvider, Typography, Grid, Button } from '@material-ui/core'
-
+import { ThemeProvider, Typography, Grid } from '@material-ui/core'
+import Button from '@material-ui/core/Button'
 import { theme, useStyles } from '../MaUI'
 import cinisterContext from '../../context/CinisterContext'
-import useMediaQuery from '@material-ui/core/useMediaQuery';
-
 
 const SpecificListing = () => {
 
     let { id } = useParams()
     let fetchPath = ""
-
-    const largeScreen = useMediaQuery(theme.breakpoints.up('md'));
 
     const [itemDetails, setItemDetails] = useState({})
 
@@ -31,7 +27,7 @@ const SpecificListing = () => {
     useEffect(() => {
 
         window.scrollTo(0,0)
-        fetch("http://192.168.0.106:5000/"+ fetchPath +"/" + id, {
+        fetch("/db/"+ fetchPath +"/" + id, {
           headers : { 
             'Content-Type': 'application/json',
             'Accept': 'application/json'
