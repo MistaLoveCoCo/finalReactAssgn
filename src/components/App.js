@@ -30,7 +30,7 @@ function App() {
     
     async function movieData() {
 
-      const response = await fetch("http://localhost:3001/HeroSectionMovies", {
+      const response = await fetch("/db/HeroSectionMovies", {
         headers : { 
           'Content-Type': 'application/json',
           'Accept': 'application/json'
@@ -46,7 +46,7 @@ function App() {
 
     async function featTVData() {
 
-      const response = await fetch("http://localhost:3001/FeaturedTV", {
+      const response = await fetch("/db/FeaturedTV", {
         headers : { 
           'Content-Type': 'application/json',
           'Accept': 'application/json'
@@ -60,7 +60,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3001/Podcasts", {
+    fetch("/db/Podcasts", {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -82,7 +82,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3001/TVListings", {
+    fetch("/db/TVListings", {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -104,7 +104,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3001/MovieListings", {
+    fetch("/db/MovieListings", {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
