@@ -13,14 +13,14 @@ const LoginForm = () => {
 
     const classes = useStyles()
 
-    const {email} = useContext(ciniContext)
+    const {email, setEmailState} = useContext(ciniContext)
 
     return (
         <div>
             <Grid container className={classes.popup} direction="column" justifyContent="center" alignContent="center" alignItems="center">
                 <Grid item>
                     <Typography variant="h4" color="primary">
-                        Hello, {email}!
+                        Hello! Login / Sign up!
                     </Typography>
                 </Grid>
                 <Grid item style={{margin: '15px'}}>
@@ -51,6 +51,11 @@ const LoginForm = () => {
                         variant="contained"
                         color="primary">
                         Login
+                    </Button>
+                </Grid>
+                <Grid item style={{marginTop: '2%'}}>
+                    <Button color="primary" variant="text" onClick={() => setEmailState(3)}>
+                        Sign Up
                     </Button>
                 </Grid>
             </Grid>

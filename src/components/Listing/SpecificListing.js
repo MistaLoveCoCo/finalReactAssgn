@@ -18,35 +18,26 @@ const SpecificListing = () => {
 
     if (listingGenre == 1) {
 
-        fetchPath = "TVListings"
+        fetchPath = "tv"
     } else {
 
-        fetchPath = "MovieListings"
+        fetchPath = "movies"
     }
 
     useEffect(() => {
 
         window.scrollTo(0,0)
-        fetch("/db/"+ fetchPath +"/" + id, {
-          headers : { 
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-           }
-        })
-        .then((res) => {
-    
-          return res.json()
-        })
-        .then(json => {
-          
-          setItemDetails(json)
-        })
-        .catch((err) => {
-    
-          console.log("Error while fetching " + err)
-        })
+
+        fetch(`https://javaspringkarthik.herokuapp.com/${fetchPath}/${id}`)
+        .then((res) => { return res.json() })
+        .then((json) => {
+        
+            console.log(json.body)
+            setItemDetails(json.body[0]);
+        });
       }, [])
-      
+
+              
     return (
         <div>
             <ThemeProvider theme={theme}>

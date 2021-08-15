@@ -25,109 +25,50 @@ function App() {
   const [listingGenre, setListingGenre] = useState()
   const [tvListing, setTvListing] = useState({})
   const [movieListing, setMovieListing] = useState({})
-
+  const [searchListing, setSearchListing] = useState({})
   useEffect(() => {
+  
+    fetch("https://javaspringkarthik.herokuapp.com/movies")
+    .then((res) => { return res.json() })
+    .then((json) => {
     
-    async function movieData() {
-
-      const response = await fetch("/db/HeroSectionMovies", {
-        headers : { 
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-         }
-      })
-      const data = await response.json()
-      setMovieList(data)
-    }
-    movieData()
+      setMovieList(json.body);
+    });
   }, [])
     
   useEffect(() => {
-
-    async function featTVData() {
-
-      const response = await fetch("/db/FeaturedTV", {
-        headers : { 
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-         }
-      })
-      const data = await response.json()
-      setFeaturedTV(data)
-    }
-    featTVData()
+    fetch("https://javaspringkarthik.herokuapp.com/tv?featured=true")
+    .then((res) => { return res.json() })
+    .then((json) => {
+    
+      setFeaturedTV(json.body);
+    });
   }, [])
 
   useEffect(() => {
 
-    fetch("/db/Podcasts", {
-      headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    })
-    .then((res) => {
-
-      return res.json()
-    })
-    .then(json => {
-      
-      setPodcasts(json)
-    })
-    .catch((err) => {
-
-      console.log("Error while fetching Podcasts " + err)
-    })
+    fetch("https://javaspringkarthik.herokuapp.com/tv")
+    .then((res) => { return res.json() })
+    .then((json) => {
+    
+      setTvListing(json.body);
+    });
   }, [])
 
   useEffect(() => {
 
-    fetch("/db/TVListings", {
-      headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    })
-    .then((res) => {
-
-      return res.json()
-    })
-    .then(json => {
-      
-      setTvListing(json)
-    })
-    .catch((err) => {
-
-      console.log("Error while fetching TVListings " + err)
-    })
-  }, [])
-
-  useEffect(() => {
-
-    fetch("/db/MovieListings", {
-      headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    })
-    .then((res) => {
-
-      return res.json()
-    })
-    .then(json => {
-      
-      setMovieListing(json)
-    })
-    .catch((err) => {
-
-      console.log("Error while fetching MovieListings " + err)
-    })
+    fetch("https://javaspringkarthik.herokuapp.com/movies")
+    .then((res) => { return res.json() })
+    .then((json) => {
+    
+      setMovieListing(json.body);
+    });
   }, [])
 
   return (
     <Router>
         <div className={classes.root}>
-          <ciniContext.Provider value={{openLogIn, setOpenLogIn, drawerState, setDrawerState, email, setEmail, emailState, setEmailState, movieList, setMovieList, featuredTV, podcasts, listingGenre, setListingGenre, tvListing, movieListing}}>
+          <ciniContext.Provider value={{searchListing, setSearchListing, openLogIn, setOpenLogIn, drawerState, setDrawerState, email, setEmail, emailState, setEmailState, movieList, setMovieList, featuredTV, podcasts, listingGenre, setListingGenre, tvListing, movieListing}}>
               <Header />
               <Switch>
                 <Route exact path='/'>
@@ -140,6 +81,9 @@ function App() {
                 </Route>
                 <Route exact path='/movie'>
                   {(listingGenre === 2 && movieListing.length > 0) ? <Listing genre={movieListing}  /> : null}
+                </Route>
+                <Route exact path='/search'>
+                  {(listingGenre === 3 && searchListing.length > 0) ? <Listing genre={searchListing}  /> : null}
                 </Route>
                 <Route exact path ="/:id" component={SpecificListing} />
               </Switch>

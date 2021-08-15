@@ -72,39 +72,6 @@
         "posters": "https://www.themoviedb.org/t/p/original/2KLkGP0qWZlNGOad2O6P069hlw0.jpg"
       }
     ],
-    "FeaturedTV": [
-      {
-        "id": 0,
-        "posters": "https://www.themoviedb.org/t/p/original/8kOWDBK6XlPUzckuHDo3wwVRFwt.jpg"
-      },{
-        "id": 1,
-        "posters": "https://www.themoviedb.org/t/p/original/6PX0r5TRRU5y0jZ70y1OtbLYmoD.jpg"
-      },{
-        "id": 2,
-        "posters": "https://www.themoviedb.org/t/p/original/yDWJYRAwMNKbIYT8ZB33qy84uzO.jpg"
-      },{
-        "id": 3,
-        "posters": "https://www.themoviedb.org/t/p/original/gJay5Y0XpuKTW5e4OACzewxJaXt.jpg"
-      },{
-        "id": 4,
-        "posters": "https://www.themoviedb.org/t/p/original/gKepMfnseLPwbZ0U9E1LmMW2x4V.jpg"
-      },{
-        "id": 5,
-        "posters": "https://www.themoviedb.org/t/p/original/gfgbx5qSRqKiIk0TwWeVIlFp1vV.jpg"
-      },{
-        "id": 6,
-        "posters": "https://www.themoviedb.org/t/p/original/48BH8znSXNLQtZCZUuEIBWztXB5.jpg"
-      },{
-        "id": 7,
-        "posters": "https://www.themoviedb.org/t/p/original/6tfT03sGp9k4c0J3dypjrI8TSAI.jpg"
-      },{
-        "id": 8,
-        "posters": "https://www.themoviedb.org/t/p/original/f496cm9enuEsZkSPzCwnTESEK5s.jpg"
-      },{
-        "id": 9,
-        "posters": "https://www.themoviedb.org/t/p/original/mY7SeH4HFFxW1hiI6cWuwCRKptN.jpg"
-      }
-    ],
     "Podcasts": [
       {
         "id": 0,
@@ -132,6 +99,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/TXaR5xmz2ohHgnpf0YPWtZPlCO.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/vlv1gn98GqMnKHLSh0dNciqGfBl.jpg",
         "tags": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+        "featured": true,
         "rating": "83"
       },{
         "id" : 1,
@@ -141,7 +109,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/jh9YpYaG1be7FOtBUxkLTIkhQHI.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/hGAyS6RbANHDurPBgeHbntameG6.jpg",
         "tags": "Crime, Drama, Mystery",
-        "rating": "84"
+        "featured": false, "rating": "84"
       },{
         "id" : 2,
         "title": "The Boys",
@@ -150,7 +118,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/aNrcxmzCZc1Tgze4jOwJrwk7tCl.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/sSuBYm2RiLAlBGVb8OEFzAhrO3W.jpg",
         "tags": "Sci-Fi & Fantasy, Action & Adventure",
-        "rating": "84"
+        "featured": true, "rating": "84"
       },{
         "id" : 3,
         "title": "Breaking Bad",
@@ -159,7 +127,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/84XPpjGvxNyExjSuLQe0SzioErt.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
         "tags": "Drama",
-        "rating": "87"
+        "featured": false, "rating": "87"
       },{
         "id" : 4,
         "title": "Cobra Kai",
@@ -168,7 +136,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/5NrSIzfcBOFI9HRGV4nRYgMGhDU.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/obLBdhLxheKg8Li1qO11r2SwmYO.jpg",
         "tags": "Action & Adventure, Drama",
-        "rating": "81"
+        "featured": true, "rating": "81"
       },{
         "id" : 5,
         "title": "Jujutsu Kaisen",
@@ -177,7 +145,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/j0gsESaBzFmYVhnBTXzIE9PsgY8.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/j0gsESaBzFmYVhnBTXzIE9PsgY8.jpg",
         "tags": "Animation, Action & Adventure, Sci-Fi & Fantasy",
-        "rating": "85"
+        "featured": false, "rating": "85"
       },{
         "id" : 6,
         "title": "Invincible",
@@ -186,7 +154,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/erdro0QqFlfVTWfDHWCTr03z2LL.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/bpKYMRKNJoDY3swRNQ3qahSAdr2.jpg",
         "tags": "Animation, Sci-Fi & Fantasy, Action & Adventure Drama",
-        "rating": "88"
+        "featured": true, "rating": "88"
       },{
         "id" : 7,
         "title": "House",
@@ -195,7 +163,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/fQ7oSVQaA5WZMEaVFSeNv4B2eZv.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/lkvhReTBZ2Ksl0Dl5Oplsf6UYkF.jpg",
         "tags": "Drama, Comedy, Mystery",
-        "rating": "83"
+        "featured": false, "rating": "83"
       },{
         "id" : 8,
         "title": "The Vampire Diaries",
@@ -204,7 +172,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/k7T9xRyzP41wBVNyNeLmh8Ch7gD.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/itWtSnqjui7rnnXt1UwB8MgXtMx.jpg",
         "tags": "Drama, Sci-Fi & Fantasy",
-        "rating": "87"
+        "featured": true, "rating": "87"
       },{
         "id" : 9,
         "title": "Ragnarok",
@@ -213,7 +181,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/wu444tM9YBllq9UcBv5TeidO3j3.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/3mBZwTEuN2CejVTeZqVfy2Kx5dY.jpg",
         "tags": "Sci-Fi & Fantasy, Drama, Mystery",
-        "rating": "81"
+        "featured": true, "rating": "81"
       },{
         "id" : 10,
         "title": "WandaVision",
@@ -222,7 +190,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/1i1N0AVRb54H6ZFPDTwbo9MLxSF.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/glKDfE6btIRcVB5zrjspRIs4r52.jpg",
         "tags": "Sci-Fi & Fantasy, Mystery, Drama",
-        "rating": "84"
+        "featured": false, "rating": "84"
       },{
         "id" : 11,
         "title": "The Falcon and the Winter Soldier",
@@ -231,7 +199,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/eRZNiRFJBq7ul581QXYGKoEdmts.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/6kbAMLteGO8yyewYau6bJ683sw7.jpg",
         "tags": "Sci-Fi & Fantasy, Action & Adventure, Drama, War &Politics",
-        "rating": "78"
+        "featured": true, "rating": "78"
       },{
         "id" : 12,
         "title": "The Good Doctor",
@@ -240,7 +208,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/7dQh5DLoCKE4HjHpEWGeuPfYW5Z.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/6tfT03sGp9k4c0J3dypjrI8TSAI.jpg",
         "tags": "Drama",
-        "rating": "86"
+        "featured": false, "rating": "86"
       },{
         "id" : 13,
         "title": "Riverdale",
@@ -249,7 +217,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/pHcNHYPg0c2vg7qay6wjJoApUgS.jpg",
         "tags": "Mystery, Drama, Crime",
-        "rating": "86"
+        "featured": true, "rating": "86"
       },{
         "id" : 14,
         "title": "The Flash",
@@ -258,7 +226,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/tVL0q0a0WvkZjgu4oD3R4uH15JA.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/wHa6KOJAoNTFLFtp7wguUJKSnju.jpg",
         "tags": "Drama, Sci-Fi & Fantasy",
-        "rating": "77"
+        "featured": false, "rating": "77"
       },{
         "id" : 15,
         "title": "Grey's Anatomy",
@@ -267,7 +235,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/9Ntaq2UBQYD7oxjkwMCH3gG5Gpk.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg",
         "tags": "Drama",
-        "rating": "82"
+        "featured": true, "rating": "82"
       },{
         "id" : 16,
         "title": "The Big Bang Theory",
@@ -276,7 +244,7 @@
         "backdrops": "https://www.themoviedb.org/t/p/original/wlDGWcltmKKLW2uJvFPP2NVswJF.jpg",
         "posters": "https://www.themoviedb.org/t/p/original/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg",
         "tags": "Comedy",
-        "rating": "77"
+        "featured": false, "rating": "77"
       }
     ],
     "MovieListings":[
@@ -286,84 +254,96 @@
         "year": "2021",
         "description" : "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
         "backdrops": "https://www.themoviedb.org/t/p/original/70AV2Xx5FQYj20labp0EGdbjI6E.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/rIOXO9rP63V9wuiXSj9tEfYHhjq.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/rIOXO9rP63V9wuiXSj9tEfYHhjq.jpg",
+        "featured": false, "rating": "78"
       },{
         "id" : 1,
         "title": "The Tomorrow War",
         "year": "2021",
         "description" : "The world is stunned when a group of time travelers arrive from the year 2051 to deliver an urgent message: Thirty years in the future, mankind is losing a global war against a deadly alien species. The only hope for survival is for soldiers and civilians from the present to be transported to the future and join the fight. Among those recruited is high school teacher and family man Dan Forester.",
         "backdrops": "https://www.themoviedb.org/t/p/original/nVKRspU9SQEs2gNrms8cDKsI4vx.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/lj9R6heQZ56MXGVOavm5Kwk09WY.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/lj9R6heQZ56MXGVOavm5Kwk09WY.jpg",
+        "featured": true, "rating": "83"
       },{
         "id" : 2,
         "title": "A Quiet Place II",
         "year": "2021",
         "description" : "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
         "backdrops": "https://www.themoviedb.org/t/p/original/am782sUaTOGcEPEdUUjybwUZP1f.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/leDuZa07e2xFhaxihRsDsJCiRhZ.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/leDuZa07e2xFhaxihRsDsJCiRhZ.jpg",
+        "featured": false, "rating": "77"
       },{
         "id" : 3,
         "title": "Black Widow",
         "year": "2021",
         "description" : "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
         "backdrops": "https://www.themoviedb.org/t/p/original/eksYCE9GqYolGeoQovKeOJfiLiz.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/301EmTLcJc5AyEIS4RcZqYBs5qT.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/301EmTLcJc5AyEIS4RcZqYBs5qT.jpg",
+        "featured": true, "rating": "89"
       },{
         "id" : 4,
         "title": "Tom Clancy's Without Remorse",
         "year": "2021",
         "description" : "An elite Navy SEAL uncovers an international conspiracy while seeking justice for the murder of his pregnant wife.",
         "backdrops": "https://www.themoviedb.org/t/p/original/fPGeS6jgdLovQAKunNHX8l0avCy.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/6GCOpT8QcNzup09TAMmvvk22LTR.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/6GCOpT8QcNzup09TAMmvvk22LTR.jpg",
+        "featured": false, "rating": "96"
       },{
         "id" : 5,
         "title": "Joker",
         "year": "2019",
         "description" : "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
         "backdrops": "https://www.themoviedb.org/t/p/original/f5F4cRhQdUbyVbB5lTNCwUzD6BP.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+        "featured": true, "rating": "86"
       },{
         "id" : 6,
         "title": "Venom",
         "year": "2018",
         "description" : "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
         "backdrops": "https://www.themoviedb.org/t/p/original/hNsYUryiwxcdeTMkaBcPF3iEg0p.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/ysV0NOrxUelK290XONEQePpw4zB.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/ysV0NOrxUelK290XONEQePpw4zB.jpg",
+        "featured": false, "rating": "89"
       },{
         "id" : 7,
         "title": "Extraction",
         "year": "2020",
         "description" : "Tyler Rake, a fearless mercenary who offers his services on the black market, embarks on a dangerous mission when he is hired to rescue the kidnapped son of a Mumbai crime lord.",
         "backdrops": "https://www.themoviedb.org/t/p/original/1R6cvRtZgsYCkh8UFuWFN33xBP4.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/6U1nhUnWqr0idUdrM7KjWwCgkWx.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/6U1nhUnWqr0idUdrM7KjWwCgkWx.jpg",
+        "featured": true, "rating": "98"
       },{
         "id" : 8,
         "title": "Tenet",
         "year": "2020",
         "description" : "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
         "backdrops": "https://www.themoviedb.org/t/p/original/wzJRB4MKi3yK138bJyuL9nx47y6.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/k68nPLbIST6NP96JmTxmZijEvCA.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/k68nPLbIST6NP96JmTxmZijEvCA.jpg",
+        "featured": false, "rating": "48"
       },{
         "id" : 9,
         "title": "Spider-Man: Far From Home",
         "year": "2019",
         "description" : "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
         "backdrops": "https://www.themoviedb.org/t/p/original/8XiTPU1zfy41Xgg96TCHXj4uQJf.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/2KLkGP0qWZlNGOad2O6P069hlw0.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/2KLkGP0qWZlNGOad2O6P069hlw0.jpg",
+        "featured": true, "rating": "99"
       },{
         "id" : 10,
         "title": "Bad Boys for Life",
         "year": "2020",
         "description" : "Marcus and Mike are forced to confront new threats, career changes, and midlife crises as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel.",
         "backdrops": "https://www.themoviedb.org/t/p/original/upUy2QhMZEmtypPW3PdieKLAHxh.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
+        "featured": false, "rating": "56"
       },{
         "id" : 11,
         "title": "F&F: Hobbs & Shaw",
         "year": "2019",
         "description" : "Ever since US Diplomatic Security Service Agent Hobbs and lawless outcast Shaw first faced off, they just have traded smack talk and body blows. But when cyber-genetically enhanced anarchist Brixton's ruthless actions threaten the future of humanity, they join forces to defeat him.",
         "backdrops": "https://www.themoviedb.org/t/p/original/hpgda6P9GutvdkDX5MUJ92QG9aj.jpg",
-        "posters": "https://www.themoviedb.org/t/p/original/qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg"
+        "posters": "https://www.themoviedb.org/t/p/original/qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg",
+        "featured": true, "rating": "99"
       }
     ]
   }

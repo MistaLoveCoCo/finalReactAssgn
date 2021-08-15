@@ -15,7 +15,7 @@ const UserPopUp = () => {
 
     const handleClose = () => {
 
-        setEmailState(1)
+        setEmailState(2)
         setOpenLogIn(false)
     }
 
